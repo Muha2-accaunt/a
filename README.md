@@ -1,236 +1,254 @@
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Separator } from "@/components/ui/separator"
-import { Star, GitFork, Download, ExternalLink, Code, Zap, Shield, Users, BookOpen, Heart, Github } from "lucide-react"
+  <div align="center">
 
-export default function Component() {
+# 🚀 Awesome Project
+
+### Zamonaviy va Professional Dastur
+
+*Bu loyiha eng so'nggi texnologiyalar yordamida yaratilgan ajoyib yechim*
+
+---
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
+
+[🌟 **Demo Ko'rish**](https://your-demo-link.com) • [📖 **Hujjatlar**](https://your-docs-link.com) • [🐛 **Xatolik Xabar Qilish**](https://github.com/username/repo/issues)
+
+</div>
+
+---
+
+## ✨ Nima Uchun Bu Loyiha?
+
+> **"Eng yaxshi kod - bu foydalanuvchi ehtiyojini to'liq qondiradigan kod"**
+
+Bu loyiha quyidagi muammolarni hal qilish uchun yaratilgan:
+- 🎯 **Samaradorlik** - Tez va optimallashtirilgan ishlash
+- 🔒 **Xavfsizlik** - Zamonaviy himoya standartlari
+- 🎨 **Dizayn** - Chiroyli va intuitiv interfeys
+- 📱 **Moslashuvchanlik** - Barcha qurilmalarda mukammal ishlash
+
+---
+
+## 🛠️ Texnologiyalar
+
+<div align="center">
+
+| Frontend | Backend | Database | Tools |
+|----------|---------|----------|-------|
+| ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) | ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
+
+</div>
+
+---
+
+## 🚀 Tezkor Boshlash
+
+### Talablar
+- Node.js 18+ 
+- npm yoki yarn
+- Git
+
+### O'rnatish
+
+```bash
+# 1️⃣ Repository ni klonlash
+git clone https://github.com/username/awesome-project.git
+
+# 2️⃣ Loyiha papkasiga kirish
+cd awesome-project
+
+# 3️⃣ Bog'liqliklarni o'rnatish
+npm install
+# yoki
+yarn install
+
+# 4️⃣ Environment o'zgaruvchilarini sozlash
+cp .env.example .env.local
+# .env.local faylini tahrirlang
+
+# 5️⃣ Development serverini ishga tushirish
+npm run dev
+# yoki
+yarn dev
+```
+
+🎉 **Tayyor!** Brauzeringizda `http://localhost:3000` ga o'ting
+
+---
+
+## 📖 Foydalanish
+
+### Asosiy Funksiyalar
+
+```javascript
+// Komponentni import qilish
+import { AwesomeComponent } from 'awesome-project';
+
+// Oddiy foydalanish
+function App() {
   return (
-    <div className="max-w-4xl mx-auto p-6 space-y-8 bg-white">
-      {/* Header Section */}
-      <div className="text-center space-y-4">
-        <div className="flex items-center justify-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-            <Code className="w-6 h-6 text-white" />
-          </div>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Awesome Project
-          </h1>
-        </div>
-
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Bu loyiha zamonaviy texnologiyalar yordamida yaratilgan ajoyib dastur. Foydalanuvchilarga qulay va samarali
-          yechim taqdim etadi.
-        </p>
-
-        {/* Badges */}
-        <div className="flex flex-wrap justify-center gap-2">
-          <Badge variant="secondary" className="flex items-center gap-1">
-            <Star className="w-3 h-3" />
-            MIT License
-          </Badge>
-          <Badge variant="secondary" className="flex items-center gap-1">
-            <GitFork className="w-3 h-3" />
-            TypeScript
-          </Badge>
-          <Badge variant="secondary" className="flex items-center gap-1">
-            <Zap className="w-3 h-3" />
-            React
-          </Badge>
-          <Badge variant="secondary" className="flex items-center gap-1">
-            <Shield className="w-3 h-3" />
-            Next.js
-          </Badge>
-        </div>
-
-        {/* Action Buttons */}
-        <div className="flex flex-wrap justify-center gap-3">
-          <Button className="flex items-center gap-2">
-            <Download className="w-4 h-4" />
-            O'rnatish
-          </Button>
-          <Button variant="outline" className="flex items-center gap-2">
-            <ExternalLink className="w-4 h-4" />
-            Demo ko'rish
-          </Button>
-          <Button variant="outline" className="flex items-center gap-2">
-            <BookOpen className="w-4 h-4" />
-            Hujjatlar
-          </Button>
-        </div>
-      </div>
-
-      <Separator />
-
-      {/* Features Section */}
-      <div className="space-y-6">
-        <h2 className="text-2xl font-bold text-center">✨ Asosiy Xususiyatlar</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-lg">
-                <Zap className="w-5 h-5 text-yellow-500" />
-                Tez va Samarali
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600">Yuqori tezlik va optimal ishlash uchun optimallashtirilgan</p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-lg">
-                <Shield className="w-5 h-5 text-green-500" />
-                Xavfsiz
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600">Zamonaviy xavfsizlik standartlari bilan himoyalangan</p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-lg">
-                <Users className="w-5 h-5 text-blue-500" />
-                Foydalanuvchi Do'st
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600">Intuitiv va oson foydalaniladigan interfeys</p>
-            </CardContent>
-          </Card>
-        </div>
-      </div>
-
-      <Separator />
-
-      {/* Installation Section */}
-      <div className="space-y-4">
-        <h2 className="text-2xl font-bold">🚀 O'rnatish</h2>
-        <Card>
-          <CardHeader>
-            <CardTitle>Tezkor Boshlash</CardTitle>
-            <CardDescription>Loyihani ishga tushirish uchun quyidagi qadamlarni bajaring</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="bg-gray-100 p-4 rounded-lg">
-              <p className="font-mono text-sm">
-                <span className="text-gray-500"># Repository ni klonlash</span>
-                <br />
-                git clone https://github.com/username/awesome-project.git
-                <br />
-                <br />
-                <span className="text-gray-500"># Papkaga kirish</span>
-                <br />
-                cd awesome-project
-                <br />
-                <br />
-                <span className="text-gray-500"># Bog'liqliklarni o'rnatish</span>
-                <br />
-                npm install
-                <br />
-                <br />
-                <span className="text-gray-500"># Loyihani ishga tushirish</span>
-                <br />
-                npm run dev
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-
-      <Separator />
-
-      {/* Usage Section */}
-      <div className="space-y-4">
-        <h2 className="text-2xl font-bold">📖 Foydalanish</h2>
-        <Card>
-          <CardContent className="pt-6">
-            <div className="bg-gray-100 p-4 rounded-lg">
-              <p className="font-mono text-sm">
-                <span className="text-blue-600">import</span> {"{ AwesomeComponent }"}{" "}
-                <span className="text-blue-600">from</span> <span className="text-green-600">'awesome-project'</span>
-                <br />
-                <br />
-                <span className="text-blue-600">function</span> <span className="text-purple-600">App</span>() {"{"}
-                <br />
-                {"  "}
-                <span className="text-blue-600">return</span> {"("}
-                <br />
-                {"    "}
-                <span className="text-red-600">{"<AwesomeComponent"}</span>
-                <br />
-                {"      "}
-                <span className="text-green-600">title</span>=<span className="text-green-600">"Salom Dunyo!"</span>
-                <br />
-                {"      "}
-                <span className="text-green-600">theme</span>=<span className="text-green-600">"dark"</span>
-                <br />
-                {"    "}
-                <span className="text-red-600">{"/>"}</span>
-                <br />
-                {"  "});
-                <br />
-                {"}"}
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-
-      <Separator />
-
-      {/* Contributing Section */}
-      <div className="space-y-4">
-        <h2 className="text-2xl font-bold">🤝 Hissa Qo'shish</h2>
-        <Card>
-          <CardContent className="pt-6 space-y-4">
-            <p className="text-gray-600">Loyihaga hissa qo'shishni xohlaymiz! Quyidagi qadamlarni bajaring:</p>
-            <ol className="list-decimal list-inside space-y-2 text-gray-600">
-              <li>Repository ni fork qiling</li>
-              <li>
-                Yangi branch yarating (
-                <code className="bg-gray-100 px-2 py-1 rounded">git checkout -b feature/yangi-xususiyat</code>)
-              </li>
-              <li>
-                O'zgarishlaringizni commit qiling (
-                <code className="bg-gray-100 px-2 py-1 rounded">git commit -am 'Yangi xususiyat qo\'shildi'</code>)
-              </li>
-              <li>
-                Branch ni push qiling (
-                <code className="bg-gray-100 px-2 py-1 rounded">git push origin feature/yangi-xususiyat</code>)
-              </li>
-              <li>Pull Request yarating</li>
-            </ol>
-          </CardContent>
-        </Card>
-      </div>
-
-      <Separator />
-
-      {/* Footer */}
-      <div className="text-center space-y-4">
-        <div className="flex justify-center items-center gap-2 text-gray-600">
-          <span>Agar loyiha yoqsa, yulduzcha bering</span>
-          <Star className="w-4 h-4" />
-        </div>
-
-        <div className="flex justify-center items-center gap-4 text-sm text-gray-500">
-          <span className="flex items-center gap-1">
-            <Heart className="w-4 h-4 text-red-500" />
-            Uzbekiston bilan yaratildi
-          </span>
-          <span>•</span>
-          <span className="flex items-center gap-1">
-            <Github className="w-4 h-4" />
-            MIT License
-          </span>
-        </div>
-
-        <p className="text-xs text-gray-400">© 2024 Awesome Project. Barcha huquqlar himoyalangan.</p>
-      </div>
-    </div>
-  )
+    <AwesomeComponent
+      title="Salom Dunyo!"
+      theme="dark"
+      onAction={(data) => console.log(data)}
+    />
+  );
 }
+```
+
+### API Misollari
+
+```javascript
+// GET so'rovi
+const data = await fetch('/api/users').then(res => res.json());
+
+// POST so'rovi
+const result = await fetch('/api/users', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ name: 'John', email: 'john@example.com' })
+});
+```
+
+---
+
+## 🎯 Xususiyatlar
+
+<div align="center">
+
+| Xususiyat | Tavsif | Status |
+|-----------|--------|--------|
+| 🔐 **Autentifikatsiya** | JWT asosidagi xavfsiz kirish tizimi | ✅ Tayyor |
+| 📊 **Dashboard** | Real-time ma'lumotlar va statistika | ✅ Tayyor |
+| 🌙 **Dark Mode** | Tungi rejim qo'llab-quvvatlash | ✅ Tayyor |
+| 📱 **Responsive** | Barcha qurilmalarda ishlash | ✅ Tayyor |
+| 🔍 **Qidiruv** | Tezkor va aqlli qidiruv | 🚧 Ishlanmoqda |
+| 🌐 **i18n** | Ko'p tilli qo'llab-quvvatlash | 📋 Rejalashtirilgan |
+
+</div>
+
+---
+
+## 📸 Skrinshotlar
+
+<div align="center">
+
+### 🏠 Bosh Sahifa
+![Bosh Sahifa](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Bosh+Sahifa)
+
+### 📊 Dashboard
+![Dashboard](https://via.placeholder.com/800x400/059669/FFFFFF?text=Dashboard)
+
+### 📱 Mobil Ko'rinish
+<img src="https://via.placeholder.com/300x600/DC2626/FFFFFF?text=Mobil+Korinish" width="300">
+
+</div>
+
+---
+
+## 🤝 Hissa Qo'shish
+
+Loyihaga hissa qo'shganingiz uchun oldindan rahmat! 
+
+### Qadamlar:
+
+1. **Fork** qiling
+2. **Branch** yarating (`git checkout -b feature/yangi-xususiyat`)
+3. **Commit** qiling (`git commit -m 'Yangi xususiyat: ...'`)
+4. **Push** qiling (`git push origin feature/yangi-xususiyat`)
+5. **Pull Request** oching
+
+### Kod Standartlari
+
+```bash
+# Kodni tekshirish
+npm run lint
+
+# Testlarni ishga tushirish
+npm run test
+
+# Build qilish
+npm run build
+```
+
+---
+
+## 📊 Loyiha Statistikasi
+
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)
+![GitHub forks](https://img.shields.io/github/forks/username/repo?style=social)
+![GitHub issues](https://img.shields.io/github/issues/username/repo)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/username/repo)
+
+</div>
+
+---
+
+## 🗺️ Roadmap
+
+- [x] ~~Asosiy funksiyalar~~
+- [x] ~~Responsive dizayn~~
+- [x] ~~Dark mode~~
+- [ ] 🔄 API v2.0
+- [ ] 🔄 Mobile app
+- [ ] 🔄 Plugin tizimi
+- [ ] 📋 AI integratsiyasi
+
+---
+
+## 📞 Aloqa
+
+<div align="center">
+
+**Muallif:** [Sizning Ismingiz](https://github.com/username)
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/username)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/username)
+
+</div>
+
+---
+
+## 📄 Litsenziya
+
+Bu loyiha [MIT](LICENSE) litsenziyasi ostida tarqatiladi.
+
+---
+
+<div align="center">
+
+### ⭐ Agar loyiha yoqsa, yulduzcha bosing!
+
+**Uzbekiston** 🇺🇿 **bilan muhabbat bilan yaratildi**
+
+---
+
+*"Kelajak - bu bugun yozgan kodingizda"*
+
+</div>
+```
+
+Bu README fayli quyidagi ajoyib xususiyatlarga ega:
+
+## 🎨 **Dizayn Xususiyatlari:**
+- **Rangdor badgelar** va ikonkalar
+- **Jadvallar** va **vizual elementlar**
+- **Skrinshotlar** uchun joy
+- **Markazlashtirilgan** va **professional** ko'rinish
+
+## 📋 **To'liq Qismlar:**
+- Loyiha tavsifi va maqsadi
+- Texnologiyalar ro'yxati
+- O'rnatish yo'riqnomasi
+- Foydalanish misollari
+- Hissa qo'shish qoidalari
+- Roadmap va rejalar
+
+Bu shablonni o'z loyihangizga moslashtirib ishlatishingiz mumkin!
+
