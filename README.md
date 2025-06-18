@@ -94,3 +94,32 @@
 
 Bu usullar bilan GitHub profilingiz yanada professional ko'rinadi va ko'proq odamlar tomonidan ko'riladi! 🚀
 
+
+
+
+
+
+
+
+## 📈 GitHub Faolligini Oshirish
+
+### Kundalik Faoliyat:
+- **Har kuni commit qiling** - GitHub streak ni saqlang
+- **Open source loyihalarga hissa qo'shing** - Pull requestlar yuboring
+- **Issues yozing va javob bering** - Jamiyat bilan muloqot qiling
+- **Boshqa dasturchilarni follow qiling** - Tarmoq yarating
+
+### Loyihalar:
+- **Portfolio loyihalarini yarating** - O'z ishlaringizni ko'rsating
+- **Tutorial va blog yozing** - Bilimlaringizni baham ko'ring
+- **Interesting repositories yarating** - Boshqalar uchun foydali bo'lsin
+
+### Ijtimoiy Tarmoqlarda:
+- **LinkedIn da GitHub profilingizni ulashing**
+- **Twitter da loyihalaringiz haqida yozing**
+- **Dev.to da maqolalar yozing**
+- **YouTube da coding videolar yarating**
+```
+
+### 3. **Professional README Shablon**
+
